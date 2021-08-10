@@ -7,6 +7,13 @@ library(knitr)
 library(rgl)
 knit_hooks$set(webgl = hook_webgl)
 
+if (!requireNamespace("rmarkdown", quietly = TRUE) ||
+!rmarkdown::pandoc_available("1.14")) {
+warning(call. = FALSE, "These vignettes assume rmarkdown and pandoc
+version 1.14. These were not found. Older versions will not work.")
+knitr::knit_exit()
+}
+
 ## ---- results='show'----------------------------------------------------------
 test1 <- iris[which(iris$Species!="versicolor"),c(1:3,5)]
 test2 <- iris[which(iris$Species!="setosa"),c(1:3,5)]
