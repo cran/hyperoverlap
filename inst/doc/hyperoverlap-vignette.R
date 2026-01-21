@@ -52,11 +52,11 @@ transformed_data <- hyperoverlap_lda(setosa_virginica4d)  #plots the best two di
 transformed_data <- hyperoverlap_lda(versicolor_virginica4d) 
 
 ## ----results='show',  fig.height=5,fig.width=7, webgl = hook_webgl,fig.align="center"----
-rgl.close()  #close previous device
+close3d()  #close previous device
 transformed_data <- hyperoverlap_lda(setosa_virginica4d, visualise3d=TRUE) 
 
 ## ----results='show',  fig.height=5,fig.width=7, webgl = hook_webgl,fig.align="center"----
-rgl.close()  #close previous device
+close3d()  #close previous device
 transformed_data <- hyperoverlap_lda(versicolor_virginica4d, visualise3d=TRUE) #plots the best three dimensions for visualising overlap
 
 ## ----results='show', fig.dim=c(5,3),fig.align="center"------------------------

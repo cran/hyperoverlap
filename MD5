@@ -1,4 +1,4 @@
-4e1662a2126f3e9bbae7ef15c1a75b93 *DESCRIPTION
+f4c4df951db435758bc7a0125918082b *DESCRIPTION
 0e292dcd5c1a54176e2b96ef84b55cf5 *NAMESPACE
 98daa081173b083bdfbe01cf5c569993 *NEWS.md
 f6725f5c93274cef63beb9a9f0461b2d *R/hyperoverlap-class.R
@@ -9,11 +9,11 @@ f6725f5c93274cef63beb9a9f0461b2d *R/hyperoverlap-class.R
 138fc9162f8aafb194b592035f3def73 *R/hyperoverlap_plot.r
 742503cf9a2f59f89c300509dda61d9f *R/hyperoverlap_set.r
 3e3b21f57674aebc3abd63bfec2583e3 *README.md
-b54db8794555342c4feee5fe0b1b8f5b *build/partial.rdb
-6e831926434c6a7d6f763ab8e79d2dbb *build/vignette.rds
-3b9ccebd285f8b137e182e3e891b31d8 *inst/doc/hyperoverlap-vignette.R
-6cc30002532b3507e34062b6534d0346 *inst/doc/hyperoverlap-vignette.Rmd
-6e1c704de61cbefd2cb4a439d6037492 *inst/doc/hyperoverlap-vignette.html
+d54042561b90aafd8a9a202ea63e1e4b *build/partial.rdb
+3249bc0450f8df6feea8d1dd848f3a83 *build/vignette.rds
+875883d905d5968db2d0ef470980c540 *inst/doc/hyperoverlap-vignette.R
+0ea6c6e1ebf450f2f34cbf49883048e5 *inst/doc/hyperoverlap-vignette.Rmd
+7afe7e159c37821daf366ca2c12ffa6c *inst/doc/hyperoverlap-vignette.html
 37ee8739ecd769f79e65b706d23a0b54 *man/hyperoverlap-class.Rd
 5ffd20fbbeeada91a49f59cabd18dd0c *man/hyperoverlap-package.Rd
 4e0d605302b1d13715b11a0e57073d2e *man/hyperoverlap_detect.Rd
@@ -21,4 +21,4 @@ b54db8794555342c4feee5fe0b1b8f5b *build/partial.rdb
 eb1c14efac5a0e6b18f8ea5e0a5294bc *man/hyperoverlap_pairs_plot.Rd
 bcb26f26ed9a7fa2c9b28d89dae6f5ab *man/hyperoverlap_plot.Rd
 defcd1fe87a16cdaa2634ab073e81468 *man/hyperoverlap_set.Rd
-6cc30002532b3507e34062b6534d0346 *vignettes/hyperoverlap-vignette.Rmd
+0ea6c6e1ebf450f2f34cbf49883048e5 *vignettes/hyperoverlap-vignette.Rmd
